@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/Features", glue = { "stepDefinations" }, monochrome = true, plugin = {
-		"pretty", "html:target/HtmlReport/report.html","json:target/JsonReport/report.json", "junit:target/JunitReport/report.xml" }, tags ="@smokeTest")
+		"pretty", "html:target/HtmlReport/report.html","json:target/JsonReport/report.json", "junit:target/JunitReport/report.xml" })
 public class TestRunner {
 
 }

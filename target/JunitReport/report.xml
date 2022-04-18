@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.238">
-    <testcase classname="Test login scenerio" name="Test Login with valid credentials" time="0.07">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="11.831">
+    <testcase classname="Search functionality of google" name="Test Search on google" time="5.8">
+        <system-out><![CDATA[Given Browser is open.......................................................passed
+And user is on google search page...........................................passed
+When user enters text in search field.......................................passed
+And hit the enter key.......................................................passed
+Then user is naviagetd to search results page...............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login scenerio" name="Test Login with valid credentials" time="2.855">
         <system-out><![CDATA[Given user is on login page.................................................passed
-When user enters username and password......................................passed
+When user enters mohsin and 12345...........................................passed
+And click on login..........................................................passed
+Then user is naviagetd to home page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test login scenerio" name="Test Login with valid credentials 2" time="3.004">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters ahmad and 12345............................................passed
 And click on login..........................................................passed
 Then user is naviagetd to home page.........................................passed
 ]]></system-out>
